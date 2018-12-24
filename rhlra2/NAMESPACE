@@ -1,0 +1,3 @@
+useDynLib(rhlra2)
+
+exportPattern("^[[:alpha:]]+")
