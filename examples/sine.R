@@ -4,12 +4,13 @@ source("../auxiliary/2_vp.R")
 set.seed(15)
 
 N <- 50
-signal <- 10 * sin(2 * pi * 1:N / 6)
+signal <- 5 * sin(2 * pi * 1:N / 12)
 series <- signal + rnorm(N)
-r <- 3
+r <- 2
 
-
-v_init <- svd(traj_matrix(signal, r + 1))$u[r + 1, ]
+ssaobj <- ssa(series)
+ssa_init <- cadzow(ssaobj, r = r, tol = 1e-8)
+v_init <- svd(traj_matrix(ssa_init, r + 1))$u[, r + 1]
 
 answer <- compare_steps(series = series, 
               v_init = v_init,

@@ -4,13 +4,13 @@ source("../auxiliary/2_vp.R")
 set.seed(15)
 
 N <- 50
-signal <- 10 * sin(2 * pi * 1:N / 6)
-series <- signal + rnorm(N)
-r <- 3
+signal <- 5 * sin(2 * pi * 1:N / 12)
+series <- signal + runif(N)
+r <- 2
 
 weights <- band_mat_from_diags(inv_ac_diags(N, c(0.9)))
 
-v_init <- svd(traj_matrix(signal, r + 1))$u[r + 1, ]
+v_init <- svd(traj_matrix(series, r + 1))$u[, r + 1]
 
 answer <- compare_steps(series = series, 
               v_init = v_init,
