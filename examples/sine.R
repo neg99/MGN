@@ -8,9 +8,7 @@ signal <- 5 * sin(2 * pi * 1:N / 12)
 series <- signal + rnorm(N)
 r <- 2
 
-ssaobj <- ssa(series)
-ssa_init <- cadzow(ssaobj, r = r, tol = 1e-8)
-v_init <- svd(traj_matrix(ssa_init, r + 1))$u[, r + 1]
+v_init <- svd(traj_matrix(series, r + 1))$u[, r + 1]
 
 answer <- compare_steps(series = series, 
               v_init = v_init,
