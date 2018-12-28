@@ -5,21 +5,6 @@ library(rhlra2)
 
 sapply_ns <- function(...) sapply(..., simplify = FALSE)
 
-get_rev_row_form <- function(x) {
-    trip <- as(x, "dgTMatrix")
-
-    trip_i <- trip@i
-    trip_j <- trip@j
-    trip_data <- trip@x
-
-    trip_diagonal <- (trip_i - trip_j) + 1
-    trip_pos <- trip_i + 1
-    trip <- matrix(0, ncol = max(trip_diagonal),
-                        nrow = max(trip_pos))
-    trip[cbind(trip_pos, trip_diagonal)] <- trip_data
-    trip
-}
-
 inv_ac_diags <- function(N, coefs) {
     p <- length(coefs)
     convv <- c(1, -coefs)
