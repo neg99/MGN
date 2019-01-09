@@ -1,28 +1,32 @@
 # MGN
-Modified Gauss-Newton algorithm
+Modified Gauss-Newton algorithm for Hankel Structured Low-rank Approximation
 
-# Код на R, использующийся в кандидатской
+# The R code used in paper 
 
-**Прежде, чем запускать код, необходимо установить вспомогательный пакет из каталога [rhlra2](rhlra2/)**.
+**Please install auxiliary binary package from [rhlra2](rhlra2/) subdirectory before running examples in R**.
 
-Необходимо установить следующие пакеты:
+Following public packages are also needed for installing:
 `install.packages(c("fftw", "svd", "Matrix", "orthopolynom"))`
 
-## Описание каталогов
+## Directories description
 
 ### [auxiliary](auxiliary/)
 
-Содержит код методов, использующийся в моделировании (Cadzow, MGN, VP, поиск весов)
+Contains an implementation of used method (MGN and VPGN)
 
 ### [plots](plots/)
 
-Код для построения сравнения методов вычисления базисов, а так же сравнения методов
-MGN/VPGN. Результат - рисунки (в кандидатской/статье).
+Contains code for creating plots printed in paper (comparison of MGN/VPGN methods by
+accuracy and speed).
 
-## Описание файлов
+### [examples](examples/)
 
-Общее правило - файл достаточно просто открыть, установить в RStudio рабочий каталог в место файла,
-и запустить его целиком. Дальше он сам сделает `source` для всех зависимостей.
+Contains some simple examples of methods usage.
 
-Для того, чтобы сразу начать, можно открыть и почитать смысл параметров методов в [ридми в auxiliary](auxiliary).
-А прям в этом каталоге есть несколько примеров решения задачи HSLRA для белого/красного шума. Их можно сразу открыть и запустить.
+## Common rule for all R files
+
+You need to set a working directory (either in RStudio or using `setwd`) to source file,
+then run all lines from it. Needed dependencies will be evaluated automatically.
+
+To begin with, you can run examples from [examples](examples/) directory. It contains description
+on how to run MGN/VPGN method.

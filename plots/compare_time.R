@@ -5,7 +5,7 @@ compare_time <- function(series, v_init, it, objective, subit = 16,
                           step_search = "mgn",
                           opt_method = FALSE, project_onto = project_onto_a_mgn,
                           weights = Diagonal(length(series)),
-                          compensated = TRUE, vp_drop = Inf, cycles = 5) {
+                          compensated = TRUE, vp_drop = Inf, cycles = 10) {
     N <- length(series)
     print(N)
     print(step_search)
@@ -46,7 +46,7 @@ compare_time <- function(series, v_init, it, objective, subit = 16,
         system.time(fun_to_eval())["elapsed"]
     })
     
-    median(times)
+    mean(times, trim = .2)
 }
 
 eval_for_one_N <- function(N, weights, vp_drop = Inf) {

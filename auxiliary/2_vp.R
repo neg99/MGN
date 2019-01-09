@@ -97,7 +97,33 @@ find_step_vp <- function(signal, series, v, debug = FALSE,
     answer
 }
 
-compare_steps <- function(series, v_init, it, objective, subit = 16,
+# perform HSLRA
+
+# series -- initial point
+
+# v_init -- initial GLRR
+
+# it -- limit amount of iterations
+
+# objective -- used for comparison for problems with known
+# local minimum to make plots
+
+# opt_method = TRUE -- return approximation instead of
+# technical information
+
+# compensated = FALSE -- do not use compensated Horner scheme
+# when calculating projections in GLRR (enabled by default)
+
+# step_search -- use MGN or VP algorithm for calculating step
+
+# project_onto -- use MGN or VP algorithm for calculating
+# projections onto Z(a)
+
+# weights -- weights matrix of type Matrix
+
+# subit, criterion_split -- parameters for backtracking
+
+run_hlra <- function(series, v_init, it, objective, subit = 16,
                           step_search = "mgn",
                           opt_method = FALSE, project_onto = project_onto_a_mgn,
                           criterion_split = 5e-8, weights = Diagonal(length(series)),
@@ -215,12 +241,12 @@ vp_demo <- function() {
     
     it <- 40
     
-    data <- cbind(compare_steps(series, v, it, signal, step_search = "vp",
+    data <- cbind(run_hlra(series, v, it, signal, step_search = "vp",
                                 project_onto = project_onto_a_vp, weights = weights),
-                  compare_steps(series, v, it, signal, step_search = "vp", weights = weights),
-                  compare_steps(series, v, it, signal, step_search = "mgn", weights = weights,
+                  run_hlra(series, v, it, signal, step_search = "vp", weights = weights),
+                  run_hlra(series, v, it, signal, step_search = "mgn", weights = weights,
                                 compensated = FALSE),
-                  compare_steps(series, v, it, signal, step_search = "mgn", weights = weights,
+                  run_hlra(series, v, it, signal, step_search = "mgn", weights = weights,
                                 compensated = TRUE))
     symbs <- c(0,1,2,5)
     symbs_all <- c(0,1,2,5,15,16,17,18)

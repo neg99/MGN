@@ -54,12 +54,12 @@ eval_disperancy <- function(N, debug = FALSE) {
     v <- c(1, -3, 3, -1) + 1e-6 * c(1, 1, 1, 1)
 
 
-    mgn_approx <- compare_steps(series, v, 100, 0, opt_method = TRUE,
+    mgn_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
                                 compensated = FALSE)
 
     v_mgn <- cur_v_global
     
-    s_mgn_approx <- compare_steps(series, v, 100, 0, opt_method = TRUE,
+    s_mgn_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
                                 compensated = TRUE)
     
     v_s_mgn <- cur_v_global
@@ -79,7 +79,7 @@ eval_disperancy <- function(N, debug = FALSE) {
     #                                                                    Rini=Rini),
     #                                compute.Rh=TRUE, compute.ph=TRUE)$ph},
     #          warning = function(x) {print(x)}, error = function(x) {print(x)})
-    tryCatch({kostya_approx <- compare_steps(series, v, 100, 0, opt_method = TRUE,
+    tryCatch({kostya_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
                                              step_search = "vp",
                                              project_onto = project_onto_a_vp)
              v_vp <- cur_v_global},
@@ -88,7 +88,7 @@ eval_disperancy <- function(N, debug = FALSE) {
 
     kostya_approx_comp <- NULL
     v_vp_comp <- NULL
-    tryCatch({kostya_approx_comp <- compare_steps(series, v, 100, 0, opt_method = TRUE,
+    tryCatch({kostya_approx_comp <- run_hlra(series, v, 100, 0, opt_method = TRUE,
                                              step_search = "vp")
              v_vp_comp <- cur_v_global},
              warning = function(x) {print(x)}, error = function(x) {print(x)})
