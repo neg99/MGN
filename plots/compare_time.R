@@ -102,8 +102,6 @@ white_noise_data <- sapply(net,
                                eval_for_one_N(N, weights)
                            })
 
-pdf("time_diagonal.pdf", width = 2.1, height = 2.1, pointsize = 4)
-par(mar = c(4.6,3.9,1.2,1.2))
 
 matplot(net, t(white_noise_data), log = "xy", type = "l", 
         xlab = "N", ylab = "Time, sec", col = colors,
@@ -111,6 +109,20 @@ matplot(net, t(white_noise_data), log = "xy", type = "l",
 
 legend("topleft", c("MGN", "S-MGN", "VPGN", "S-VPGN"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
+
+white_noise_data_moved <- t(white_noise_data)
+white_noise_data_moved <- sapply(1:4, function(i) white_noise_data_moved[, i]/min(white_noise_data_moved[, i]))
+
+pdf("time_diagonal.pdf", width = 2.1, height = 2.1, pointsize = 4)
+par(mar = c(4.6,3.9,1.2,1.2))
+
+matplot(net, white_noise_data_moved, log = "xy", type = "l", 
+        xlab = "N", ylab = "Times slower", col = colors,
+        lty = c(1,2,1,2))
+
+legend("topleft", c("MGN", "S-MGN", "VPGN", "S-VPGN"),
+       lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
+
 dev.off()
 
 M <- 15
@@ -123,7 +135,7 @@ red_noise_data <- sapply(net,
                            })
 
 
-pdf("time_3diagonal.pdf", width = 2.1, height = 2.1, pointsize = 4)
+
 par(mar = c(4.6,3.9,1.2,1.2))
 
 matplot(net, t(red_noise_data), log = "xy", type = "l", 
@@ -132,5 +144,17 @@ matplot(net, t(red_noise_data), log = "xy", type = "l",
 
 legend("topright", c("MGN", "S-MGN", "VPGN", "S-VPGN"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
-dev.off()
 
+red_noise_data_moved <- t(red_noise_data)
+red_noise_data_moved <- sapply(1:4, function(i) red_noise_data_moved[, i]/min(red_noise_data_moved[, i], na.rm = TRUE))
+
+pdf("time_3diagonal.pdf", width = 2.1, height = 2.1, pointsize = 4)
+par(mar = c(4.6,3.9,1.2,1.2))
+
+matplot(net, red_noise_data_moved, log = "xy", type = "l", 
+        xlab = "N", ylab = "Times slower", col = colors,
+        lty = c(1,2,1,2))
+
+legend("topright", c("MGN", "S-MGN", "VPGN", "S-VPGN"),
+       lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
+dev.off()
