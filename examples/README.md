@@ -17,3 +17,7 @@ with three-diagonal weights matrix.
 Simple example of applying MGN methods to noised signal
 containing gaps, i.e. with diagonal weights matrix, where
 diagonal consists only of 0 and 1.
+
+### [illposed.R](illposed.R)
+
+Example of ill-posed forecasting problem.
