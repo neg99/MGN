@@ -6,7 +6,7 @@ Modified Gauss-Newton algorithm for Hankel Structured Low-rank Approximation
 **Please install auxiliary binary package from [rhlra2](rhlra2/) subdirectory before running examples in R**.
 
 Following public packages are also needed for installing:
-`install.packages(c("fftw", "svd", "Matrix", "orthopolynom"))`
+`install.packages(c("fftw", "svd", "Matrix", "orthopolynom", "Rssa"))`
 
 ## Directories description
 
@@ -22,6 +22,10 @@ accuracy and speed).
 ### [examples](examples/)
 
 Contains some simple examples of methods usage.
+
+### [MATLAB](matlab/)
+
+Code VPGN algorithm numeric comparion for MATLAB by Konstantin Usevich.
 
 ## Common rule for all R files
 

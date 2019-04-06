@@ -24,12 +24,17 @@ answer <- run_hlra(series = series,
                    opt_method = TRUE,
                    weights = weights)
 
+pdf("model_wo_gap.pdf", width = 4.2, height = 2.1, pointsize = 4)
+par(mar = c(4.6,3.9,1.2,1.2))
+
 matplot(1:N, cbind(series, answer, signal), pch = c(1, 26, 26),
         xlab = "Index", ylab = "Value")
 lines(1:N, answer, col = "red", lty = 1)
 lines(1:N, signal, col = "blue", lty = 2)
 legend("top", c("Series", "Approximation", "Signal"), col=c("black", "red", "blue"),
        pch = c(1, 26, 26), lty = c(0, 1, 2))
+
+dev.off()
 
 # construct time series with gaps
 series <- signal + 0.2 * sqrt(sum(signal ^ 2)) *  noise / sqrt(sum(noise ^ 2))
@@ -73,6 +78,9 @@ answer <- run_hlra(series = series_fill,
 series_fill_to_plot <- signal
 series_fill_to_plot[!!mask] <- NA
 
+pdf("model_gap.pdf", width = 4.2, height = 2.1, pointsize = 4)
+par(mar = c(4.6,3.9,1.2,1.2))
+
 matplot(1:N, cbind(series, answer, signal, series_fill_to_plot), pch = c(1, 26, 26, 8),
         xlab = "Index", ylab = "Value", col = 1)
 lines(1:N, answer, col = "red", lty = 1)
@@ -80,3 +88,5 @@ lines(1:N, signal, col = "blue", lty = 2)
 legend("top", c("Series", "Approximation", "Signal", "Missing value"), 
        col=c("black", "red", "blue", "black"),
        pch = c(1, 26, 26, 8), lty = c(0, 1, 2, 0))
+
+dev.off()

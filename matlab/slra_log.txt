@@ -1,0 +1,1676 @@
+>> test_nikita
+corr = 0, meth = p
+
+N =
+
+    20
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Optimization terminated by reaching the convergence tolerance for the gradient.
+
+N =
+
+    30
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    46
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    69
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   104
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   157
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0000000001,  min =  -0.0000000001  ...
+-0.000000 0.000000 -0.000000 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   237
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0000000166,  min =  -0.0000000189  ...
+0.000000 -0.000000 0.000000 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   357
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0000004833,  min =  -0.0000001941  ...
+0.000000 -0.000000 -0.000000 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   539
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0000035758,  min =  -0.0000092923  ...
+-0.000002 -0.000009 0.000004 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   814
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0000203071,  min =  -0.0000344566  ...
+-0.000011 0.000020 -0.000034 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1229
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0001232792,  min =  -0.0001544357  ...
+-0.000120 0.000123 -0.000154 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1855
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0004988050,  min =  -0.0005435135  ...
+0.000447 -0.000544 0.000499 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        2800
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0005848072,  min =  -0.0009326325  ...
+-0.000933 0.000585 -0.000659 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        4226
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0005488144,  min =  -0.0002758242  ...
+0.000549 -0.000276 0.000197 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        6379
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0003880792,  min =  -0.0004882507  ...
+0.000002 0.000388 -0.000488 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        9630
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0023340785,  min =  -0.0024452264  ...
+-0.001782 0.002334 -0.002445 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+       14536
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0015032761,  min =  -0.0019283118  ...
+-0.001928 0.001503 -0.001620 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+       21943
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0004958070,  min =  -0.0008908121  ...
+-0.000891 -0.000633 0.000496 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+       33123
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0046378263,  min =  -0.0047263925  ...
+0.002585 -0.004726 0.004638 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+       50000
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.0011740088,  min =  -0.0013365391  ...
+0.000406 -0.001337 0.001174 
+SLRA optimization terminated by reaching the maximum number of iterations.
+The result could be far from optimal.
+Optimization terminated by reaching the convergence tolerance for X.
+corr = 1, meth = l
+
+N =
+
+    20
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    30
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    46
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    69
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000000004,  min =  -0.0000000005  ...
+-0.000000 -0.000000 -0.000000 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   104
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000002642,  min =  -0.0000002659  ...
+-0.000000 -0.000000 -0.000000 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   157
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000249576,  min =  -0.0000250666  ...
+-0.000025 -0.000025 -0.000025 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   237
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0027472469,  min =  -0.0027810281  ...
+-0.002781 -0.002762 -0.002747 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   357
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0532832748,  min =  -0.0558045633  ...
+-0.055805 -0.054486 -0.053283 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   539
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.7714502042,  min =   0.7681805845  ...
+0.768181 0.769991 0.771450 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   814
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   1.6316473057,  min =   1.5873499484  ...
+1.587350 1.609806 1.631647 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1229
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   8.0540188124,  min =   7.9918744566  ...
+7.991874 8.023699 8.054019 
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1855
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  15.4090456915,  min =  15.3571241973  ...
+15.357124 15.382564 15.409046 
+Gamma is singular (DPBTRF info = 1659), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1659), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1624), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1624), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1806), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1806), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1585), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1796), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1578), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1809), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 1806), adding regularization, reg = 0.000000.
+
+N =
+
+        2800
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  20.8834794163,  min =  20.8374582556  ...
+20.837458 20.862239 20.883479 
+Gamma is singular (DPBTRF info = 1804), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1804), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1658), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1658), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1599), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1599), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2277), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2277), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1517), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1517), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1545), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1545), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1966), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1966), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1610), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1583), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 1966), adding regularization, reg = 0.000000.
+
+N =
+
+        4226
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  26.4910314386,  min =  26.4518015567  ...
+26.451802 26.471106 26.491031 
+Gamma is singular (DPBTRF info = 2865), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2865), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2737), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2737), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2620), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2620), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3368), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3368), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1834), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1736), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2076), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 3368), adding regularization, reg = 0.000000.
+
+N =
+
+        6379
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  31.4090939425,  min =  31.3823699057  ...
+31.382370 31.396615 31.409094 
+Gamma is singular (DPBTRF info = 2699), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2699), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2294), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1755), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1755), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1833), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2090), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2090), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3305), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3305), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1886), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1886), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1430), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1785), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 1886), adding regularization, reg = 0.000000.
+
+N =
+
+        9630
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  33.2317016863,  min =  33.2116710492  ...
+33.211671 33.226293 33.231702 
+Gamma is singular (DPBTRF info = 2882), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2882), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5692), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5692), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3206), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3206), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2718), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2718), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2469), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2469), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4550), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4550), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3636), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2478), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3620), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 4550), adding regularization, reg = 0.000000.
+
+N =
+
+       14536
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  36.4648784428,  min =  36.4496928916  ...
+36.449693 36.460683 36.464878 
+Gamma is singular (DPBTRF info = 5449), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5449), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3439), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3439), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2817), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2817), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1745), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1745), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1684), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1684), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1549), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1549), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1820), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1820), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6723), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6723), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1737), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4120), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4120), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 4120), adding regularization, reg = 0.000000.
+
+N =
+
+       21943
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  37.4168110879,  min =  37.4055674783  ...
+37.405567 37.410820 37.416811 
+Gamma is singular (DPBTRF info = 1618), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1618), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2272), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1545), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1545), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2027), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1880), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1880), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1790), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1790), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3068), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3068), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1673), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1617), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2725), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2725), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1774), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1829), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2158), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1711), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2123), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 2725), adding regularization, reg = 0.000000.
+
+N =
+
+       33123
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  38.0450224788,  min =  38.0323968857  ...
+38.036377 38.032397 38.045022 
+Gamma is singular (DPBTRF info = 25167), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 25167), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 21886), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 21886), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6679), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6679), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6362), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5476), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6807), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 6807), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 12346), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 12346), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 8243), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 8143), adding regularization, reg = 0.000000.
+Lack of convergence: change in parameters < machine EPS.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 12346), adding regularization, reg = 0.000000.
+
+N =
+
+       50000
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  38.5551855080,  min =  38.5495325988  ...
+38.549533 38.550249 38.555186 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+corr = 1, meth = p
+
+N =
+
+    20
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    30
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    46
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+    69
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000000004,  min =  -0.0000000005  ...
+-0.000000 -0.000000 -0.000000 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   104
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000002642,  min =  -0.0000002659  ...
+-0.000000 -0.000000 -0.000000 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   157
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0000249576,  min =  -0.0000250666  ...
+-0.000025 -0.000025 -0.000025 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   237
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0027472469,  min =  -0.0027810281  ...
+-0.002781 -0.002762 -0.002747 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   357
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  -0.0532832748,  min =  -0.0558045633  ...
+-0.055805 -0.054486 -0.053283 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   539
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   0.7714502042,  min =   0.7681805845  ...
+0.768181 0.769991 0.771450 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+   814
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   1.6316473057,  min =   1.5873499484  ...
+1.587350 1.609806 1.631647 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1229
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =   8.0540188124,  min =   7.9918744566  ...
+7.991874 8.023699 8.054019 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        1855
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  15.4090456915,  min =  15.3571241973  ...
+15.357124 15.382564 15.409046 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        2800
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  20.8834794163,  min =  20.8374582556  ...
+20.837458 20.862239 20.883479 
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+
+N =
+
+        4226
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  26.4910314386,  min =  26.4518015567  ...
+26.451802 26.471106 26.491031 
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1563), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1653), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1732), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2010), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 1582), adding regularization, reg = 0.000000.
+
+N =
+
+        6379
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  31.4090939425,  min =  31.3823699057  ...
+31.382370 31.396615 31.409094 
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3616), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5507), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3509), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3236), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 3285), adding regularization, reg = 0.000000.
+
+N =
+
+        9630
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  33.2317016863,  min =  33.2116710492  ...
+33.211671 33.226293 33.231702 
+Gamma is singular (DPBTRF info = 5448), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5448), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2521), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2462), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2114), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 1951), adding regularization, reg = 0.000000.
+
+N =
+
+       14536
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  36.4648784428,  min =  36.4496928916  ...
+36.449693 36.460683 36.464878 
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 2765), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5545), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4378), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 3038), adding regularization, reg = 0.000000.
+
+N =
+
+       21943
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  37.4168110879,  min =  37.4055674783  ...
+37.405567 37.410820 37.416811 
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3976), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4234), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 4018), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5777), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 3728), adding regularization, reg = 0.000000.
+
+N =
+
+       33123
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  38.0450224788,  min =  38.0323968857  ...
+38.036377 38.032397 38.045022 
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 5332), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 14093), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3131), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 3386), adding regularization, reg = 0.000000.
+
+N =
+
+       50000
+
+Warning: Unrecognized submethod - using default.
+ 
+> In slra (line 95)
+  In test_nikita (line 62) 
+SLRA optimization:
+Gradient error, max =  38.5551855080,  min =  38.5495325988  ...
+38.549533 38.550249 38.555186 
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 21525), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 11758), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 11758), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
+Possible lack of convergence: no progress.
+Optimization terminated by reaching the convergence tolerance for X.
+Gamma is singular (DPBTRF info = 9798), adding regularization, reg = 0.000000.
