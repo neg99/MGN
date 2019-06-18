@@ -25,7 +25,7 @@ Contains some simple examples of methods usage.
 
 ### [MATLAB](matlab/)
 
-Code VPGN algorithm numeric comparion for MATLAB by Konstantin Usevich.
+Contains code of VPGN algorithm and numerical comparison for MATLAB by Konstantin Usevich.
 
 ## Common rule for all R files
 
