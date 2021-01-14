@@ -9,6 +9,8 @@ coefs <- numeric(0)
 sigma <- 0.01
 max_step <- 1
 
+it <- 30
+
 distance <- function(series, signal) {
     sqrt(sum((series - signal)^2))
 }
@@ -45,9 +47,7 @@ eval_methods <- function(N, error = NULL) {
     # matplot(1:N, cbind(signal, series), type = "l")
 
     ideal_weights <- weights
-    if (is.null(error)) {
-        error <- runif(4, -1, 1)
-    }
+
     v <- c(1, -3, 3, -1) + 1e-6 * error
 
     vpgn_approx <- NULL
@@ -57,7 +57,7 @@ eval_methods <- function(N, error = NULL) {
     #                                                                    Rini=Rini),
     #                                compute.Rh=TRUE, compute.ph=TRUE)$ph},
     #          warning = function(x) {print(x)}, error = function(x) {print(x)})
-    tryCatch({vpgn_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
+    tryCatch({vpgn_approx <- run_hlra(series, v, it, 0, opt_method = TRUE,
                                              step_search = "vp",
                                              project_onto = project_onto_a_vp)
              v_vp <- cur_v_global},
@@ -66,7 +66,7 @@ eval_methods <- function(N, error = NULL) {
 
     s_vpgn_approx <- NULL
     v_vp_comp <- NULL
-    tryCatch({s_vpgn_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
+    tryCatch({s_vpgn_approx <- run_hlra(series, v, it, 0, opt_method = TRUE,
                                              step_search = "vp",
                                              compensated = FALSE)
              v_vp_comp <- cur_v_global},
@@ -74,7 +74,7 @@ eval_methods <- function(N, error = NULL) {
 
     s_vpgn_h_approx <- NULL
     v_vp_comp <- NULL
-    tryCatch({s_vpgn_h_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
+    tryCatch({s_vpgn_h_approx <- run_hlra(series, v, it, 0, opt_method = TRUE,
                                              step_search = "vp",
                                              compensated = TRUE)
     v_vp_comp <- cur_v_global},
@@ -100,26 +100,32 @@ net <- as.integer(exp(seq(log(20), log(5000), length.out = M)))
 # M <- 30
 # net <- as.integer(exp(seq(log(20), log(50000), length.out = M)))
 
-It <- 15
+It <- 10
 
 result_sum <- NULL
 
-for (k in 0:It) {
+all_iterations <- 0:It
+
+for (k in all_iterations) {
+    error <- runif(4, -1, 1)
     print(paste("Iteration:", k))
-    # result <- sapply(net, eval_methods)
+    print(error)
+    
     result <- sapply(net, function(i) {
-        eval_methods(i, 2 * c(bitwShiftR(k, 3)%%2, bitwShiftR(k, 2)%%2, bitwShiftR(k, 1)%%2, k %% 2) - 1)
+        eval_methods(i, error)
     })
+    
+    # result <- sapply(net, function(i) {
+    #     eval_methods(i, 2 * c(bitwShiftR(k, 3)%%2, bitwShiftR(k, 2)%%2, bitwShiftR(k, 1)%%2, k %% 2) - 1)
+    # })
     if (is.null(result_sum)) {
-        result_sum <- result
+        result_sum <<- result
     } else {
-        result_sum <- result_sum + result
+        result_sum <<- result_sum + result
     }
 }
 
-result <- result_sum / It
-
-result <- sapply(net, eval_methods)
+result <- result_sum / length(all_iterations)
 
 data <- data.frame(t(result))
 
