@@ -44,7 +44,7 @@ eval_disperancy <- function(N, debug = FALSE) {
     weights_chol <- Diagonal(N)
 
     series <- signal + (pre_noise -
-       weighted_project_onto_vspace_qr(pre_noise, 
+       weighted_project_onto_vspace_qr(pre_noise,
         weighted_project_rotate_basis(tang_space_basis, weights_chol),
         tang_space_basis, weights_chol))
 
@@ -58,12 +58,12 @@ eval_disperancy <- function(N, debug = FALSE) {
                                 compensated = FALSE)
 
     v_mgn <- cur_v_global
-    
+
     s_mgn_approx <- run_hlra(series, v, 100, 0, opt_method = TRUE,
                                 compensated = TRUE)
-    
+
     v_s_mgn <- cur_v_global
-    
+
 
     # v_basis <- get_comp_space_by_v(N, v)
     # v_basis <- cbind(as.function(polys[[1]])(net) / sqrt(N),
@@ -165,7 +165,7 @@ symb <- (disp_data > 0) * 4
 matplot(net, abs(disp_data), log = "xy", type = "b", xlab = "N",
         pch = " ",
         ylab = "Abs. value of Distance Difference", lty = c(1,2,1,2), col = colors)
-points(rep(net, 4), as.numeric(abs(disp_data)), pch = symbs_all[symb + rep(1:4, each = M)], 
+points(rep(net, 4), as.numeric(abs(disp_data)), pch = symbs_all[symb + rep(1:4, each = M)],
        col = rep(colors, each = M))
 
 
@@ -197,7 +197,7 @@ eval_hessian <- function(N, h = 1e-6) {
     weights_chol <- chol(weights)
 
     series <- signal + (pre_noise -
-                            weighted_project_onto_vspace_qr(pre_noise, 
+                            weighted_project_onto_vspace_qr(pre_noise,
                             weighted_project_rotate_basis(tang_space_basis, weights_chol),
                             tang_space_basis, weights_chol))
 
@@ -208,7 +208,7 @@ eval_hessian <- function(N, h = 1e-6) {
         v <- c(1, -3, 3, -1) + nx
         space <- get_comp_space_by_v(N, v)
 
-        sum((series - weighted_project_onto_vspace_qr(series, 
+        sum((series - weighted_project_onto_vspace_qr(series,
                             weighted_project_rotate_basis(space, weights_chol), space, weights_chol))^2)
     }
 
