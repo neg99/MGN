@@ -9,7 +9,7 @@ coefs <- numeric(0)
 sigma <- 0.01
 max_step <- 1
 
-it <- 30
+it <- 100
 
 distance <- function(series, signal) {
     sqrt(sum((series - signal)^2))
@@ -26,6 +26,8 @@ eval_methods <- function(N, error = NULL) {
     signal <- signal / norm_const
 
     net <- seq(from = -1, to = 1, length.out = N)
+    
+    # noise <- runif(N, -1, 1)
 
     pre_noise <- abs(net) / sqrt(sum((abs(net))^2))
     polys <- legendre.polynomials(5)
@@ -95,18 +97,20 @@ eval_methods <- function(N, error = NULL) {
 set.seed(15)
 
 M <- 15
-net <- as.integer(exp(seq(log(20), log(5000), length.out = M)))
+# net <- as.integer(exp(seq(log(20), log(5000), length.out = M)))
+net <- seq(100, 2000, 100)
 
 # M <- 30
 # net <- as.integer(exp(seq(log(20), log(50000), length.out = M)))
 
-It <- 10
+It <- 100
 
 result_sum <- NULL
 
 all_iterations <- 0:It
 
 for (k in all_iterations) {
+    # error <- c(1,1,1,1)# runif(4, -1, 1)
     error <- runif(4, -1, 1)
     print(paste("Iteration:", k))
     print(error)
@@ -135,7 +139,7 @@ data <- data.frame(t(result))
 colors <- c("black", "red", "green3", "blue")
 
 matplot(net, cbind(data[, c(1:3)]),
-        log = "xy", type = "l", xlab = "N",
+        log = "y", type = "l", xlab = "N",
         ylab = "Distance to solution",
         lty=c(1,2,1,2), col = colors)
 

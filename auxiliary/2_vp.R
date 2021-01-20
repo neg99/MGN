@@ -123,10 +123,10 @@ find_step_vp <- function(signal, series, v, debug = FALSE,
 
 # subit, criterion_split -- parameters for backtracking
 
-run_hlra <- function(series, v_init, it, objective, subit = 16,
+run_hlra <- function(series, v_init, it, objective, subit = 50,
                           step_search = "mgn",
                           opt_method = FALSE, project_onto = project_onto_a_mgn,
-                          criterion_split = 5e-8, weights = Diagonal(length(series)),
+                          criterion_split = 0, weights = Diagonal(length(series)),
                           compensated = TRUE) {
     N <- length(series)
     
