@@ -96,9 +96,10 @@ eval_methods <- function(N, error = NULL) {
 
 set.seed(15)
 
-M <- 15
+# M <- 15
 # net <- as.integer(exp(seq(log(20), log(5000), length.out = M)))
 net <- seq(100, 2000, 100)
+M <- length(net)
 
 # M <- 30
 # net <- as.integer(exp(seq(log(20), log(50000), length.out = M)))
@@ -133,8 +134,8 @@ result <- result_sum / length(all_iterations)
 
 data <- data.frame(t(result))
 
-# pdf("kostya_comp.pdf", width = 2.1, height = 2.1, pointsize = 4)
-# par(mar = c(4.6,3.9,1.2,1.2))
+pdf("fig1.pdf", width = 3.1, height = 2.1, pointsize = 4)
+par(mar = c(4.6,3.9,1.2,1.2))
 
 colors <- c("black", "red", "green3", "blue")
 
@@ -147,29 +148,29 @@ matplot(net, cbind(data[, c(1:3)]),
 legend("topleft", c("VPGN", "S-VPGN", "S-VPGN-H"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
 
-# dev.off()
+dev.off()
 
-# pdf("dist_diff.pdf", width = 4.2, height = 2.1, pointsize = 3)
-# par(mar = c(4.6,3.9,1.2,1.2))
+pdf("fig2.pdf", width = 3.1, height = 2.1, pointsize = 3)
+par(mar = c(4.6,3.9,1.2,1.2))
 
 disp_data <- cbind(as.numeric(data[, 4]), as.numeric(data[, 5]),
                    as.numeric(data[, 6]))
 
-symbs <- c(0,1,2,5)
-symbs_all <- c(0,1,2,5,15,16,17,18)
+symbs <- c(0,1,2)
+symbs_all <- c(0,1,2,15,16,17)
 
 symb <- (disp_data > 0) * 3
 
-matplot(net, abs(disp_data), log = "xy", type = "b", xlab = "N",
+matplot(net, abs(disp_data), log = "y", type = "b", xlab = "N",
         pch = " ",
-        ylab = "Abs. value of Distance Difference", lty = c(1,2,1,2), col = colors)
-points(rep(net, 4), as.numeric(abs(disp_data)), pch = symbs_all[symb + rep(1:3, each = M)],
+        ylab = "Abs. value of Average Distance Difference", lty = c(1,2,1), col = colors)
+points(rep(net, 3), as.numeric(abs(disp_data)), pch = symbs_all[symb + rep(1:3, each = M)],
        col = rep(colors, each = M))
 
 
 legend("topleft", c("VPGN", "S-VPGN", "S-VPGN-H"), bg = rgb(1, 1, 1, 0.85), col = colors,
        pch = symbs)
-# dev.off()
+dev.off()
 
 stop()
 
