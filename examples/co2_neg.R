@@ -3,15 +3,21 @@ source("../auxiliary/2_vp.R")
 library(Rssa)
 data(co2)
 
+rank <- 12
+
 series <- as.numeric(co2)
-#s <- ssa(series)
+#series <- as.numeric(co2[1:246])
+s.init <- ssa(series)
+# Now make rank 3 approximation using the Cadzow iterations
+F <- cadzow(s.init, rank = rank, tol = 1e-10, maxiter = 10)
+s <- ssa(F, L = rank+1)
+lr <- lrr(s, groups = list(1:rank))
 #plot(s, type = "vectors")
 #series <- as.numeric(co2[1:246])
 # plot(series)
 
-rank <- 4
-
-v_init <- c(1, numeric(rank - 1), -1)
+#v_init <- c(1, numeric(rank - 1), -1)
+v_init <- c(lr, -1)
 
 answer_mgn <- run_hlra(series = series,
                        v_init = v_init,
@@ -58,10 +64,10 @@ matplot(1:length(series), cbind(series, answer_mgn_h, answer_vpgn_h), type = "l"
         xlab = "index", ylab = "value")
 legend("topleft", c("Series", "MGN-H", "VPGN-H"), col=c("blue", "black", "red"), lty=1:3)
 
-mean((answer_mgn - series)^2)
-mean((answer_mgn_h - series)^2)
-mean((answer_vpgn - series)^2)
-mean((answer_vpgn_h - series)^2)
+print(mean((answer_mgn - series)^2))
+print(mean((answer_mgn_h - series)^2))
+print(mean((answer_vpgn - series)^2))
+print(mean((answer_vpgn_h - series)^2))
 
 eigens_count <- 1:20
 eigens_mgn <- svd(traj_matrix(answer_mgn, length(series) %/% 2))$d[eigens_count]
@@ -93,16 +99,19 @@ mean((answer_mgn_h_new - series)^2)
 
 print(mean((answer_mgn - answer_mgn_h)^2))
 print(mean((answer_vpgn - answer_vpgn_h)^2))
+print(mean((answer_mgn_h - answer_vpgn_h)^2))
 
 s.mgn <- ssa(as.vector(answer_mgn_h), L=rank+1, svd.method = "svd")
+print(parestimate(s.mgn, groups = list(1:rank)))
 s.mgn$sigma
-rf.mgn <- rforecast(s.mgn, groups = list(1:rank), len =24, only.new = FALSE)
+rf.mgn <- rforecast(s.mgn, groups = list(1:rank), len =120, only.new = FALSE)
 plot(rf.mgn, type = "l")
 
 s.vpgn <- ssa(as.vector(answer_vpgn_h), L=rank+1, svd.method = "svd")
+print(parestimate(s.vpgn, groups = list(1:rank)))
 s.vpgn$sigma
-rf.vpgn <- rforecast(s.vpgn, groups = list(1:rank), len =24, only.new = FALSE)
-#plot(rf.vpgn, type = "l")
+rf.vpgn <- rforecast(s.vpgn, groups = list(1:rank), len =120, only.new = FALSE)
+plot(rf.vpgn, type = "l")
 plot(rf.mgn, type = "l")
 lines(rf.vpgn, type = "l", col = "red")
 
