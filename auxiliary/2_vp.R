@@ -130,9 +130,22 @@ run_hlra <- function(series, v_init, it, objective, subit = 50,
                           compensated = TRUE) {
     N <- length(series)
     
-    weights_chol <- chol(weights)
-    inv_weights_chol <- chol(solve(weights))
-
+    weights_chol <- NULL
+    inv_weights_chol <- NULL
+    
+    if (any(diag(weights) == 0)) {
+        mask <- which(diag(weights) == 0)
+        weights[cbind(mask, mask)] <- 1
+        weights_chol <- chol(weights)
+        inv_weights_chol <- chol(solve(weights))
+        weights[cbind(mask, mask)] <- 0
+        weights_chol[cbind(mask, mask)] <- 0
+        inv_weights_chol[cbind(mask, mask)] <- 0
+    } else {
+        weights_chol <- chol(weights)
+        inv_weights_chol <- chol(solve(weights))
+    }
+    
     signal <- NULL
     mats <<- NULL
     vspace_pack <<- NULL
