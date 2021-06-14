@@ -19,8 +19,12 @@ distance_diff <- function(estimate, objective, input) {
 }
 
 disperancy <- function(signal, v) {
-    v <- v / sqrt(sum(v^2))
-    sqrt(sum(as.numeric(signal) %*% compl_matrices(length(signal), v, NULL)$s)^2)
+    if (length(signal) > 2000) {
+        return(NULL)
+    }
+    
+    ds <- svd(traj_matrix(signal, length(signal) %/% 2))$d
+    sum(d[r+1:length(d)])
 }
 
 eval_disperancy <- function(N, debug = FALSE) {
@@ -134,19 +138,19 @@ matplot(net, cbind(data[, c(1:4)]),
         lty=c(1,2,1,2), col = colors)
 
 
-legend("topleft", c("MGN", "S-MGN", "VPGN", "S-VPGN"),
+legend("topleft", c("MGN", "S-MGN", "VPGN", "S-VPGN-H"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
 
 dev.off()
 
-pdf("kostya_comp_disp.pdf", width = 2.1, height = 2.1, pointsize = 4)
+pdf("kostya_comp_disp.pdf", width = 4.2, height = 2.1, pointsize = 3)
 par(mar = c(4.6,3.9,1.2,1.2))
 
-matplot(net, data[, 5:8], log = "xy", type = "l", xlab = "N",
-        ylab = "Relative residual", lty = c(1,2,1,2), col = colors)
+matplot(net[1:18], data[1:18, 5:8], log = "xy", type = "l", xlab = "N",
+        ylab = "Sum of residual singular values", lty = c(1,2,1,2), col = colors)
 
 legend("topleft", c("MGN", "S-MGN", "VPGN",
-                    "S-VPGN"),
+                    "S-VPGN-H"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
 dev.off()
 
@@ -170,7 +174,7 @@ points(rep(net, 4), as.numeric(abs(disp_data)), pch = symbs_all[symb + rep(1:4, 
 
 
 legend("topleft", c("MGN", "S-MGN", "VPGN",
-                    "S-VPGN"), bg = rgb(1, 1, 1, 0.85), col = colors,
+                    "S-VPGN-H"), bg = rgb(1, 1, 1, 0.85), col = colors,
        pch = symbs)
 dev.off()
 
