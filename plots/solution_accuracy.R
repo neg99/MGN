@@ -19,12 +19,12 @@ distance_diff <- function(estimate, objective, input) {
 }
 
 disperancy <- function(signal, v) {
-    if (length(signal) > 2000) {
+    if (length(signal) > 5000) {
         return(NULL)
     }
     
     ds <- svd(traj_matrix(signal, length(signal) %/% 2))$d
-    sum(d[r+1:length(d)])
+    sum(ds[(r+1):length(ds)])
 }
 
 eval_disperancy <- function(N, debug = FALSE) {
@@ -146,7 +146,7 @@ dev.off()
 pdf("kostya_comp_disp.pdf", width = 3.2, height = 2.1, pointsize = 3)
 par(mar = c(4.6,3.9,1.2,1.2))
 
-matplot(net[1:18], data[1:18, c(7:8, 5:6)], log = "xy", type = "l", xlab = "N",
+matplot(net[1:21], data[1:21, c(7:8, 5:6)], log = "xy", type = "l", xlab = "N",
         ylab = "Sum of residual singular values", lty = c(1,2,1,2), col = colors)
 
 legend("topleft", c("VPGN",
