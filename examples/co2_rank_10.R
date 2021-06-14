@@ -8,6 +8,7 @@ data(co2)
 rank <- 10
 
 series <- as.numeric(co2)
+s.init <- ssa(series)
 # Now make rank ... approximation using the Cadzow iterations
 F <- cadzow(s.init, rank = rank, tol = 0, maxiter = 500)
 plot(F, type="l")
