@@ -53,10 +53,10 @@ matplot(1:length(series), cbind(series, answer_mgn_h, answer_vpgn_h), type = "l"
         xlab = "index", ylab = "value")
 legend("topleft", c("Series", "MGN-H", "VPGN-H"), col=c("blue", "black", "red"), lty=1:3)
 
-sum((answer_mgn - series)^2)
-sum((answer_mgn_h - series)^2)
-sum((answer_vpgn - series)^2)
-sum((answer_vpgn_h - series)^2)
+mean((answer_mgn - series)^2)
+mean((answer_mgn_h - series)^2)
+mean((answer_vpgn - series)^2)
+mean((answer_vpgn_h - series)^2)
 
 eigens_count <- 1:20
 eigens_mgn <- svd(traj_matrix(answer_mgn, length(series) %/% 2))$d[eigens_count]
@@ -83,6 +83,5 @@ answer_mgn_h_new <- run_hlra(series = series,
                        compensated = TRUE)
 
 
-sum((answer_mgn_new - series)^2)
-sum((answer_mgn_h_new - series)^2)
-
+mean((answer_mgn_new - series)^2)
+mean((answer_mgn_h_new - series)^2)
