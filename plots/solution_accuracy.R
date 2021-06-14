@@ -143,14 +143,14 @@ legend("topleft", c("MGN", "S-MGN", "VPGN", "S-VPGN-H"),
 
 dev.off()
 
-pdf("kostya_comp_disp.pdf", width = 4.2, height = 2.1, pointsize = 3)
+pdf("kostya_comp_disp.pdf", width = 3.2, height = 2.1, pointsize = 3)
 par(mar = c(4.6,3.9,1.2,1.2))
 
-matplot(net[1:18], data[1:18, 5:8], log = "xy", type = "l", xlab = "N",
+matplot(net[1:18], data[1:18, c(7:8, 5:6)], log = "xy", type = "l", xlab = "N",
         ylab = "Sum of residual singular values", lty = c(1,2,1,2), col = colors)
 
-legend("topleft", c("MGN", "S-MGN", "VPGN",
-                    "S-VPGN-H"),
+legend("topleft", c("VPGN",
+                    "S-VPGN-H", "MGN", "MGN-H"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
 dev.off()
 
