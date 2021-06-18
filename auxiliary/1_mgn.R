@@ -188,7 +188,7 @@ weighted_project_onto_vspace_coef <- function(series, vspace, chol_weights, tol 
 }
 
 
-find_step <- function(signal, series, v, vspace_pack, weights_chol, debug = FALSE, ...) {
+find_step <- function(signal, series, v, vspace_pack, weights_chol, debug = FALSE, svd_test = FALSE, ...) {
     r <- length(v) - 1
     answer <- NA
 
@@ -218,6 +218,10 @@ find_step <- function(signal, series, v, vspace_pack, weights_chol, debug = FALS
         })
     }
 
+    if (svd_test) {
+        return(singular_values_test(pseudograd, 2 * r))
+    }
+
     used_coefs <- weighted_project_onto_vspace_coef(noise, pseudograd, weights_chol)
 
     ans <- numeric(r+1)
@@ -225,4 +229,34 @@ find_step <- function(signal, series, v, vspace_pack, weights_chol, debug = FALS
     ans[-j] <- used_coefs
 
     ans
+}
+
+singular_values_test_thr <- 3000
+
+singular_values_test <- function(input, r) {
+    singular_values_test_vec <- function(signal) {
+        if (length(signal) > singular_values_test_thr) {
+            return(NA)
+        }
+        ds <- svd(traj_matrix(signal, length(signal) %/% 2))$d
+        sum(ds[(r+1):length(ds)])/sum(ds)
+    }
+
+    if (is.vector(input)) {
+        return(singular_values_test_vec(input))
+    }
+
+    singular_part <- sum(sapply(1:dim(input)[2], function(i) {
+        singular_values_test_vec(input[, i])
+    }))
+
+    cond_number_part <- NA
+
+    if (dim(input)[1] <= singular_values_test_thr) {
+        ds <- svd(input)$d
+
+        cond_number_part <- ds[1] / ds[length(ds)]
+    }
+
+    list(singular_part = singular_part, cond_number_part = cond_number_part)
 }

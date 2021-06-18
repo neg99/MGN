@@ -42,7 +42,8 @@ project_onto_a_mgn <- function(series, v, weights_chol, inv_weights_chol,
 find_step_vp <- function(signal, series, v, debug = FALSE,
                          project_onto = project_onto_a_vp, 
                          weights_chol = Diagonal(length(series)), 
-                         inv_weights_chol = Diagonal(length(series)), 
+                         inv_weights_chol = Diagonal(length(series)),
+                         svd_test = FALSE,
                          ...) {
     signal <- as.numeric(signal)
     series <- as.numeric(series)
@@ -85,7 +86,11 @@ find_step_vp <- function(signal, series, v, debug = FALSE,
         indices <- (1:(r+1))[-j]
 
         grad <- sapply(indices, make_grad)
-        
+
+        if (svd_test) {
+            return(singular_values_test(grad, 2 * r))
+        }
+
         ans[-j] <- qr.coef(qr(as.matrix(weights_chol %*% grad)), 
                            as.numeric(weights_chol %*% noise))
 
@@ -127,7 +132,7 @@ run_hlra <- function(series, v_init, it, objective, subit = 50,
                           step_search = "mgn",
                           opt_method = FALSE, project_onto = project_onto_a_mgn,
                           criterion_split = 0, weights = Diagonal(length(series)),
-                          compensated = TRUE) {
+                          compensated = TRUE, svd_test = FALSE) {
     N <- length(series)
     
     weights_chol <- NULL
@@ -213,6 +218,21 @@ run_hlra <- function(series, v_init, it, objective, subit = 50,
             break
         }
     }
+
+    if (svd_test) {
+        test_info <- NULL
+
+        if (step_search == "vp") {
+            test_info <- find_step_vp(signal, series, v, project_onto = project_onto, 
+                                 weights_chol = weights_chol,
+                                 inv_weights_chol = inv_weights_chol, svd_test = TRUE)
+        } else {
+            test_info <- find_step(signal, series, v, vspace_pack, weights_chol, svd_test = TRUE)
+        }
+
+        return(list(signal = signal, test_info = test_info))
+    }
+
     if (opt_method) {
         return(signal)
     }
