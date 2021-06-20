@@ -239,7 +239,7 @@ singular_values_test <- function(input, r) {
             return(NA)
         }
         ds <- svd(traj_matrix(signal, length(signal) %/% 2))$d
-        sum(ds[(r+1):length(ds)])/sum(ds)
+        sqrt(sum(ds[(r+1):length(ds)]^2)/sum(ds^2))
     }
 
     if (is.vector(input)) {
