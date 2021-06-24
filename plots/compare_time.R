@@ -115,7 +115,7 @@ white_noise_data_moved <- t(white_noise_data)
 white_noise_data_moved <- sapply(1:4, function(i) white_noise_data_moved[, i]/white_noise_data_moved[1, i])
 
 pdf("time_diagonal.pdf", width = 2.1, height = 2.1, pointsize = 4)
-# par(mar = c(4.6,3.9,1.2,1.2))
+par(mar = c(4.6,3.9,1.2,1.2))
 
 matplot(net, white_noise_data_moved, log = "xy", type = "l",
         xlab = "N", ylab = "Times slower", col = colors,
