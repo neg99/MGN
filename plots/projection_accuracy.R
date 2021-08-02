@@ -68,9 +68,10 @@ par(mar = c(4.6,3.9,1.2,1.2))
 
 colors <- c("black", "red", "green3", "blue")
 
+library(latex2exp)
 matplot(net, cbind(data_proj[, c(3,1,2)]),
         log = "xy", type = "l", xlab = "N",
-        ylab = "Distance to real projection",
+        ylab = TeX('$\\rho_{proj}$'),#"Distance to real projection",
         lty=c(1,2,1), col = colors)
 
 
