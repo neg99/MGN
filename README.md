@@ -1,5 +1,5 @@
 # MGN
-Modified Gauss-Newton algorithm for Hankel Structured Low-rank Approximation
+Fast and stable modification of the Gauss-Newton method for low-rank signal estimation
 
 # The R code used in paper 
 

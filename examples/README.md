@@ -21,3 +21,7 @@ diagonal consists only of 0 and 1.
 ### [illposed.R](illposed.R)
 
 Example of ill-posed forecasting problem.
+
+### [co2.R](co2.R)
+
+Example of algorithms applied to real data.

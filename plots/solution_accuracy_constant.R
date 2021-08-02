@@ -236,5 +236,3 @@ legend("topleft", c("VPGN",
 # dev.off()
 
 stop()
-
-
