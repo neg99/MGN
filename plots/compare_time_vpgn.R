@@ -86,18 +86,21 @@ legend("topleft", c("VP", "S-VP", "S-VP-H"),
 
 result_moved <- sapply(1:3, function(i) result_proj[i, ]/result_proj[i, 1])
 
-# pdf("fig_time_moved.pdf", width = 3.1, height = 2.1, pointsize = 4)
-# par(mar = c(4.6,3.9,1.2,1.2))
+ pdf("fig_time_moved.pdf", width = 3.1, height = 2.1, pointsize = 4)
+ par(mar = c(4.6,3.9,1.2,1.2))
 
 colors <- c("black", "red", "green3", "blue")
 
 matplot(net, cbind(result_moved[, c(3,1,2)]),
         log = "xy", type = "l", xlab = "N",
         ylab = "Times slower",
-        lty=c(1,2,1), col = colors)
+        lty=c(1,2,1), col = colors, xaxt="n")
 
 
 legend("topleft", c("VP", "S-VP", "S-VP-H"),
        lty = c(1,2,1,2), bg = rgb(1, 1, 1, 0.85), col = colors)
 
-# dev.off()
+xpos = c(100,1000,10000,100000)
+axis(1, at=xpos, labels=sprintf("%.0f", xpos))
+
+ dev.off()
