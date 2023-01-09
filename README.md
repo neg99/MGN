@@ -1,5 +1,6 @@
 # MGN
 Fast and stable modification of the Gauss-Newton method for low-rank signal estimation
+The work was supported by RFBR grant  20-01-00067
 
 # The R code used in paper 
 
